@@ -1,0 +1,21 @@
+*{margin: 0;padding: 0;}
+.outer{width: 6.40rem;height: 100%;position: relative;overflow: hidden;}
+#box{
+	width: 6.40rem;
+    height: 8.8rem;
+    position: absolute;
+    top: 0.5rem;
+    overflow: hidden;
+}
+#box img{
+	width: 6.40rem;
+	height: 9.80rem;
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	pointer-events: none;
+	display: none;
+	}
+#box img:nth-child(1){
+	display: block;
+	}

@@ -1,0 +1,2524 @@
+/*封装几个动画demo*/
+
+/*封装第一个*/
+@-webkit-keyframes demo{
+	0%{
+		-webkit-transform:rotate(0deg);
+			
+	}
+	100%{
+		-webkit-transform:rotate(360deg);
+	}
+}
+@-moz-keyframes demo{
+	0%{
+		-moz-transform:rotate(0deg);
+
+	}
+	100%{
+		-moz-transform:rotate(360deg);
+	}
+}
+
+
+/*封装第二个*/
+@-webkit-keyframes demo1{
+	0%{
+        left: 6.40rem;
+			
+	}
+	100%{
+        left: 0px; 
+	}
+}
+@-moz-keyframes demo1{
+	0%{
+		left: 6.40rem;
+
+	}
+	100%{
+		left: 0px;
+	}
+}
+
+/*封装第三个*/
+
+@-webkit-keyframes s{
+	0%{-webkit-transform:rotate(0deg)}
+	100%{-webkit-transform: rotate(360deg);}
+}
+
+/*封装第四个*/
+@-webkit-keyframes ar{
+	0%{bottom: 0%;opacity: 1;}
+	20%{bottom: 1%;opacity: 0.8;}
+	40%{bottom: 2%;opacity: 0.6;}
+	60%{bottom: 3%;opacity: 0.4;}
+	80%{bottom: 4%;opacity: 0.2;}
+	100%{bottom: 5%;opacity: 0;}
+}
+/*封装第五个*/
+@-webkit-keyframes leftRight{
+	0%{
+       left: 3.82rem;
+       top: 1.65rem;
+	}
+	100%{
+       left: 3.62rem;
+       top: 1.35rem;
+	}
+}
+@-moz-keyframes leftRight{
+	0%{
+		left: 3.82rem;
+		top: 1.65rem;
+	}
+	100%{
+		left: 3.62rem;
+		top: 1.35rem;
+	}
+}
+
+
+/*封装第6个*/
+@-webkit-keyframes leftRight2{
+	0%{
+       bottom: 0.58rem;
+	   left:2.32rem;
+	}
+	100%{
+       bottom: 0.78rem;
+	   left:1.82rem;
+	}
+}
+@-moz-keyframes leftRight2{
+	0%{
+		bottom: 0.58rem;
+		left:2.32rem;
+	}
+	100%{
+		bottom: 0.78rem;
+		left:1.82rem;
+	}
+}
+
+
+/*封装第七个*/
+
+@-webkit-keyframes scale{
+	0%{
+		-webkit-transform: scale(1);
+			
+	}
+	100%{
+		-webkit-transform: scale(1.5);
+	}
+}
+@-moz-keyframes scale {
+	0%{
+		-moz-transform: scale(1);
+
+	}
+	100%{
+		-moz-transform: scale(1.5);
+	}
+}
+/*封装第八个*/
+@-moz-keyframes UpDown{
+	0%{
+		bottom: 0.1rem;opacity: 1;
+	}
+	100%{
+		bottom: 0.4rem;opacity: 0.1;
+	}
+}
+@-webkit-keyframes UpDown{
+	0%{
+		bottom: 0.1rem;opacity: 1;
+	}
+	100%{
+		bottom: 0.4rem;opacity: 0.1;
+	}
+}
+/*封装一个动画*/
+@-moz-keyframes w{
+	0% {
+    left: 0.8rem;
+    bottom: 0.6rem;
+	}
+
+	25% {
+	    left: 0.5rem;
+	    bottom: 0.5rem;
+	}
+	
+	50% {
+	}
+	
+	75% {
+	    left: 0.7rem;
+	    bottom: -0.5rem;
+	}
+	
+	100% {
+	    left: 0.8rem;
+	    bottom: 0.6rem;
+	}
+}
+
+
+@-webkit-keyframes w{
+	0% {
+    left: 0.8rem;
+    bottom: 0.6rem;
+	}
+
+	25% {
+	    left: 0.5rem;
+	    bottom: 0.5rem;
+	}
+	
+	50% {
+	}
+	
+	75% {
+	    left: 0.7rem;
+	    bottom: -0.5rem;
+	}
+	
+	100% {
+	    left: 0.8rem;
+	    bottom: 0.6rem;
+	}
+}
+/*封装一个动画*/
+@-moz-keyframes w{
+	0% {
+    right: 0.8rem;
+    top: 0.6rem;
+	}
+
+	25% {
+	    right: 0.5rem;
+	    top: 0.4rem;
+	}
+	
+	50% {
+		right: 0.7rem;
+		top: 0.7rem;
+	}
+	
+	75% {
+	    right: 0.5rem;
+	    top: 0.4rem;
+	}
+	
+	100% {
+	    right: 0.8rem;
+    top: 0.6rem;
+	}
+}
+/*封装动画*/
+@-webkit-keyframes p{
+	0% {
+    right: 0.8rem;
+    top: 0.6rem;
+	}
+
+	25% {
+	    right: 0.5rem;
+	    top: 0.4rem;
+	}
+	
+	50% {
+		right: 0.7rem;
+		top: 0.7rem;
+	}
+	
+	75% {
+	    right: 0.5rem;
+	    top: 0.4rem;
+	}
+	
+	100% {
+	    right: 0.8rem;
+    top: 0.6rem;
+	}
+}
+/*封装一个动画*/
+@-webkit-keyframes j{
+	0%{-webkit-transform:rotate(0deg);}
+	
+	100%{-webkit-transform: rotate(360deg);}
+}
+/*封装一个动画*/
+@-webkit-keyframes h{
+	background: -webkit-linear-gradient(red, blue); /* Safari 5.1 - 6.0 */
+  background: -o-linear-gradient(red, blue); /* Opera 11.1 - 12.0 */
+  background: -moz-linear-gradient(red, blue); /* Firefox 3.6 - 15 */
+  background: linear-gradient(red, blue); /* 标准的语法 */
+}
+
+/*设置内容宽度高度*/
+.swiper-container {
+    width: 6.4rem;
+    height:100%;
+    overflow: hidden;
+}
+.swiper-slide{
+    width: 6.40rem;
+    height:100%;
+    overflow: hidden;
+}
+
+
+
+/*设置图标的动画*/
+
+@-moz-keyframes hcj{
+	0%{
+		bottom: 0.1rem;opacity: 1;
+	}
+	100%{
+		bottom: 0.4rem;opacity: 0.1;
+	}
+}
+@-webkit-keyframes hcj{
+	0%{
+		bottom: 0.1rem;opacity: 1;
+	}
+	100%{
+		bottom: 0.4rem;opacity: 0.1;
+	}
+}
+@-moz-keyframes move9{
+	0%{
+		left: 3.5rem;
+		top: 2.5rem;
+	}
+	100%{
+		left: 3.4rem;
+		top: 2.2rem;
+	}
+}
+@-webkit-keyframes move9{
+	0%{
+		left: 3.5rem;
+		top: 2.5rem;
+	}
+	100%{
+		left: 3.4rem;
+		top: 2.2rem;
+	}
+}
+
+.i{
+	-moz-animation: move1 0.3s 0s ease-in-out;
+	-webkit-animation: move1 0.3s 0s ease-in-out;
+	animation-fill-mode:forwards;
+}
+@-moz-keyframes move1{
+	0%{
+		left: 1.52rem;
+		top: 9.89rem;
+	}
+	100%{
+		left: 1.42rem;
+    	top: 9.69rem;
+	}
+}
+@-webkit-keyframes move1{
+	0%{
+		left: 1.52rem;
+		top: 9.89rem;
+	}
+	100%{
+		    left: 1.42rem;
+    top: 9.69rem;
+	}
+}
+
+.h{
+	-moz-animation: move2 0.3s 1.2s ease-in-out;
+	-webkit-animation: move2 0.3s 1.2s ease-in-out;
+	animation-fill-mode:forwards;
+}
+@-moz-keyframes move2{
+	0%{
+		left: 5.15rem;
+    	top: 6.89rem;
+	}
+	100%{
+		left: 5.05rem;
+    	top: 6.69rem;
+	}
+}
+@-webkit-keyframes move2{
+	0%{
+		left: 5.15rem;
+   		top: 6.89rem;
+	}
+	100%{
+		left: 5.05rem;
+    	top: 6.69rem;
+	}
+}
+
+.j{
+	-moz-animation: move3 0.3s 0.3s ease-in-out;
+	-webkit-animation: move3 0.3s 0.3s ease-in-out;
+	animation-fill-mode:forwards;
+}
+@-moz-keyframes move3{
+	0%{
+		    left: 4.46rem;
+    top: 9.37rem;
+	}
+	100%{
+		left: 4.36rem;
+    top: 9.07rem;
+	}
+}
+@-webkit-keyframes move3{
+	0%{
+		    left: 4.46rem;
+    top: 9.37rem;
+	}
+	100%{
+		left: 4.36rem;
+    top: 9.07rem;
+	}
+}
+
+
+.g{
+	-moz-animation: move4 0.3s 0.6s ease-in-out;
+	-webkit-animation: move4 0.3s 0.6s ease-in-out;
+	animation-fill-mode:forwards;
+}
+@-moz-keyframes move4{
+	0%{
+		    left: 3.05rem;
+    top: 7.66rem;
+	}
+	100%{
+		    left: 2.95rem;
+    top: 7.36rem;
+	}
+}
+@-webkit-keyframes move4{
+	0%{
+		    left: 3.05rem;
+    top: 7.66rem;
+	}
+	100%{
+		    left: 2.95rem;
+    top: 7.36rem;
+	}
+}
+
+
+.f{
+	-moz-animation: move5 0.3s 0.9s ease-in-out;
+	-webkit-animation: move5 0.3s 0.9s ease-in-out;
+	animation-fill-mode:forwards;
+}
+@-moz-keyframes move5{
+	0%{
+		        left: 0.4rem;
+    top: 6.96rem;
+	}
+	100%{
+		        left: 0.3rem;
+    top: 6.66rem;
+	}
+}
+@-webkit-keyframes move5{
+	0%{
+		        left: 0.4rem;
+    top: 6.96rem;
+	}
+	100%{
+		    left: 0.3rem;
+    top: 6.66rem;
+	}
+}
+
+
+.e{
+	-moz-animation: move6 0.3s 1.5s ease-in-out;
+	-webkit-animation: move6 0.3s 1.5s ease-in-out;
+	animation-fill-mode:forwards;
+}
+@-moz-keyframes move6{
+	0%{
+		            left: 3.72rem;
+    top: 5.18rem;
+	}
+	100%{
+		            left: 3.62rem;
+    top: 4.88rem;
+	}
+}
+@-webkit-keyframes move6{
+	0%{
+		            left: 3.72rem;
+    top: 5.18rem;
+	}
+	100%{
+		        left: 3.62rem;
+    top: 4.88rem;
+	}
+}
+
+.d{
+	-moz-animation: move7 0.3s 1.8s ease-in-out;
+	-webkit-animation: move7 0.3s 1.8s ease-in-out;
+	animation-fill-mode:forwards;
+}
+@-moz-keyframes move7{
+	0%{
+		                left: 1.95rem;
+    top: 4.72rem;
+	}
+	100%{
+		                left: 1.85rem;
+    top: 4.42rem;
+	}
+}
+@-webkit-keyframes move7{
+	0%{
+		                left: 1.95rem;
+    top: 4.72rem;
+	}
+	100%{
+		            left: 1.85rem;
+    top: 4.42rem;
+	}
+}
+
+.b{
+	-moz-animation: move8 0.3s 2.1s ease-in-out;
+	-webkit-animation: move8 0.3s 2.1s ease-in-out;
+	animation-fill-mode:forwards;
+}
+@-moz-keyframes move8{
+	0%{
+		                    left: 0.5rem;
+    top: 3rem;
+	}
+	100%{
+		                    left: 0.4rem;
+    top: 2.7rem;
+	}
+}
+@-webkit-keyframes move8{
+	0%{
+		                    left: 0.5rem;
+    top: 3rem;
+	}
+	100%{
+		                left: 0.4rem;
+    top: 2.7rem;
+	}
+}
+.c{
+	-moz-animation: move10 0.3s 3s ease-in-out;
+	-webkit-animation: move10 0.3s 3s ease-in-out;
+	animation-fill-mode:forwards;
+}
+@-moz-keyframes move10{
+	0%{
+		                        left: 5.27rem;
+    top: 2.92rem;
+	}
+	100%{
+		                        left: 5.07rem;
+    top: 2.62rem;
+	}
+}
+@-webkit-keyframes move10{
+	0%{
+		                        left: 5.27rem;
+    top: 2.92rem;
+	}
+	100%{
+		                    left: 5.07rem;
+    top: 2.62rem;
+	}
+}
+
+/*设置手的动画*/
+@-moz-keyframes hand{
+	0%{opacity: 1;}
+	100%{opacity: 0.2;}
+}
+@-webkit-keyframes hand{
+	0%{opacity: 1;}
+	100%{opacity: 0;}
+}
+
+/**/
+@-webkit-keyframes wangpeijie {
+	0% {
+		transform: translateY(0);
+	}
+	50% {
+		transform: translateY(0.5rem);
+	}
+	100% {
+		transform: translateY(0);
+	}
+}
+/*设置第一张主页面*/
+.slider1{
+	background: url(../img/1/bg_1.png) 0 0 no-repeat;
+	
+	width: 6.40rem;
+    height: 100%;
+  
+    opacity: inherit;
+    position: relative;
+    overflow: hidden;
+    background-size: 100% 100%;
+}
+.slider1 .main{
+	width: 5.1rem;
+	height: 5.18rem;
+	position: absolute;
+	top: 1.1rem;
+	left: 0.65rem;
+	z-index: 2;
+}
+.blue1{
+	width: 5.1rem;
+	height: 5.18rem;
+	position: absolute;
+}
+.blue1 img{
+	width: 5.1rem;
+	height: 5.18rem;
+}
+.blue2{
+	width: 3.74rem;
+	height: 2.08rem;
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	z-index: 2;
+}
+.blue2 img{
+	width: 3.74rem;
+	height: 2.08rem;
+}
+.blueD{
+	width: 1.1rem;
+	height: 1.48rem;
+	position: absolute;
+	left: 0;
+	top: 1.85rem;
+	z-index: 2;
+}
+.blueD img{
+	width: 1.1rem;
+	height: 1.48rem;
+}
+.gray1{
+	width: 0.65rem;
+	height: 2.73rem;
+	position: absolute;
+	left: 2.7rem;
+	top: 0;
+	z-index: 2;
+}
+.gray1 img{
+	width: 0.65rem;
+	height: 2.73rem;
+}
+.gray2{
+	width: 1.27rem;
+	height: 2.72rem;
+	position: absolute;
+	left: 1.14rem;
+	top: 1.16rem;
+	z-index: 2;
+}
+.gray2 img{
+	width: 1.27rem;
+	height: 2.72rem;
+}
+.green{
+	width: 1.39rem;
+	height: 4.49rem;
+	position: absolute;
+	left: 1.97rem;
+	top: 0;
+	z-index: 2;;
+}
+.green img{
+	width: 1.39rem;
+	height: 4.49rem;
+}
+.red1{
+	width: 2.42rem;
+	height: 5.16rem;
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+.red1 img{
+	width: 2.42rem;
+	height: 5.16rem;
+}
+.red2{
+	width: 0.37rem;
+	height: 0.43rem;
+	position: absolute;
+	left: 1.37rem;
+	top: 2.12rem;
+}
+.red2 img{
+	width: 0.37rem;
+	height: 0.43rem;
+}
+.whiteD{
+	width: 0.63rem;
+	height: 1.02rem;
+	position: absolute;
+	left: 0.24rem;
+	top: 2.04rem;
+}
+.whiteD img{
+	width: 0.63rem;
+	height: 1.02rem;
+}
+.yellow{
+	width: 5.1rem;
+	height: 3.08rem;
+	position: absolute;
+	bottom: 0;
+	left:0;
+}
+.yellow img{
+	width: 5.1rem;
+	height: 3.08rem;
+}
+.R{
+	width: 2.09rem;
+	height: 3.29rem;
+	position: absolute;
+	left: 1.15rem;
+	top: 1.88rem;
+	z-index: 3;
+}
+.R img{
+	width: 2.09rem;
+	height: 3.29rem;
+}
+.E{
+	width: 0.69rem;
+	height: 1.49rem;
+	position: absolute;
+	left: 1.98rem;
+	top:1.89rem;
+	z-index: 3;
+}
+.E img{
+	width: 0.69rem;
+	height: 1.49rem;
+}
+.M{
+	width: 2.39rem;
+	height: 2.73rem;
+	position: absolute;
+	right: 0;
+	top: 1.77rem;
+	z-index: 3;
+}
+.M img{
+	width: 2.39rem;
+	height: 2.73rem;
+}
+.maker{
+	width: 3.74rem;
+	height: 0.68rem;
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	z-index: 3;
+	background:  url(../img/1/maker.png) 0 0 no-repeat;
+	background-size: contain;
+}
+.light_red{
+	position: absolute;
+	width: 8.09rem;
+	height: 7.93rem;
+	left: 1.3rem;
+	top: 5.2rem;
+	background: url(../img/1/red_light.png) 0 0 no-repeat;
+	background-size: contain;
+}
+.light_blue{
+	width: 2.93rem;
+	height: 1.75rem;
+	background: url(../img/1/blue_light.png) 0 0 no-repeat;
+	background-size: contain;
+	position: absolute;
+	left: 1.4rem;
+	top: 7.7rem;
+}
+.word{
+	width: 4.16rem;
+	height: 1.71rem;
+	background: url(../img/1/word.png) 0 0 no-repeat;
+	background-size: contain;
+	margin: 7.5rem auto 0;
+	z-index: 3;
+}
+.shoot2{
+    width: 2.36rem;
+    height: 1.27rem;
+    background: url(../img/1/shoot2.png) 0 0 no-repeat;
+    background-size: contain;
+    position: absolute;
+    z-index: 3;
+    animation-iteration-count:infinite;
+}
+.shoot3{
+   width: 2.36rem;
+   height: 1.23rem;
+   background: url(../img/1/shoot3.png) 0 0 no-repeat;
+   background-size: contain;
+   position: absolute;
+   left: 4.5rem;
+   top: 10.5rem;
+   animation-iteration-count:infinite;
+}
+.shoot1{
+	width: 5.81rem;
+	height: 2.38rem;
+	background: url(../img/1/shoot.png) 0 0 no-repeat;
+	background-size: contain;
+	position: absolute;
+	left: 3rem;
+	top: 3rem;
+	animation-iteration-count:infinite;
+}
+
+
+
+
+
+
+
+/*设置第二个页面*/
+
+.slider2{
+    width: 6.40rem;
+    height:100%;
+    /*background: black;*/
+    position: relative;
+	background-size: 100% 100%;
+}
+.slider2-1{
+	position: absolute;
+    left: 1.2rem;
+    top: 7.9rem;
+	
+}
+.slider2-1>img{
+	width: 4rem;
+    height: 1.1rem;
+}
+.slider2-2{
+	position: absolute;
+    left: 5.5rem;
+    top: 9.6rem;
+     -webkit-animation: j 2s linear infinite normal;
+     margin-right: 0.5rem;
+}
+
+.slider2-2>img:nth-child(1){	
+    display: block;
+    width: 0.5rem;
+    height: 0.5rem;   
+}
+
+
+.slider2-3{
+	position: absolute;
+	left: 2.8rem;
+    top: 10.8rem;
+     -webkit-animation:  UpDown 2s linear infinite;
+}
+.slider2-3>img{
+	display: block;
+	width: 0.4rem;
+    height: 0.4rem;
+}
+/*设置第三个页面*/
+.slider3{
+	width: 6.40rem;
+    height: 100%;
+    background: black;
+    opacity: inherit;
+    position: relative;
+    overflow: hidden;
+    background-size: 100% 100%;
+    }
+
+
+
+.slider3-1{
+	position: absolute;
+	left: 0.2rem;
+	top: 3rem;
+	 -webkit-animation: w 4s linear infinite;
+}
+.slider3-1>img:nth-child(1){
+	position: absolute;
+    display: block;
+    width: 0.2rem;
+    height: 0.5rem;
+    left: 0.52rem;
+    top: 0.6rem;
+    z-index: 2;
+}
+.slider3-1>img:nth-child(2){
+	position: absolute;
+    display: block;
+    width: 1.7rem;
+    height: 0.8rem;
+    z-index: 2;
+    left: 0.2rem;
+    top: 0.7rem;
+}
+.slider3-1>img:nth-child(3){
+	position: absolute;
+	display: block;
+	width: 2.2rem;
+    height: 2.2rem;
+}
+
+.slider3-2{
+	position: absolute;
+	left: 3rem;
+	top: 3rem;
+	 -webkit-animation:  w 2s linear infinite;
+}
+.slider3-2>img:nth-child(1){
+	position: absolute;
+    display: block;
+    width: 0.5rem;
+    height: 0.6rem;
+    left: 2.52rem;
+    top: 0.6rem;
+    z-index: 2;
+}
+
+.slider3-3{
+	position: absolute;
+	left: 0.2rem;
+    top: 1.2rem;
+     -webkit-animation: w 4s linear infinite;
+}
+.slider3-3>img:nth-child(1){
+	position: absolute;
+    display: block;
+   width: 0.6rem;
+    height: 0.8rem;
+   left: 1.52rem;
+    top: 0.3rem;
+    z-index: 2;
+}
+
+.slider3-4{
+	position: absolute;
+    left: 0.5rem;
+    top: 1.20rem;
+      -webkit-animation: w 4s linear infinite;
+}
+.slider3-4>img:nth-child(1){
+	   position: absolute;
+    display: block;
+    width: 0.2rem;
+    height: 0.5rem;
+    left: 3.52rem;
+    top: 0.6rem;
+    z-index: 2;
+}
+.slider3-4>img:nth-child(2){
+	position: absolute;
+    display: block;
+    width: 0.9rem;
+    height: 0.3rem;
+    z-index: 2;
+    left: 3.8rem;
+    top: 0.9rem;
+}
+.slider3-4>img:nth-child(3){
+	position: absolute;
+    display: block;
+    width: 2.2rem;
+    height: 2.2rem;
+    left: 3rem;
+    top: 0.2rem;
+}
+
+
+.slider3-5{
+	position: absolute;
+    left: 0.1rem;
+    top: 3.8rem;
+     -webkit-animation: w 4s linear infinite;
+}
+.slider3-5>img:nth-child(1){
+	 position: absolute;
+    display: block;
+    width: 0.5rem;
+    height: 0.5rem;
+    left: 3.52rem;
+    top: 0.7rem;
+    z-index: 2;
+}
+.slider3-5>img:nth-child(2){
+	position: absolute;
+    display: block;
+    width: 1.9rem;
+    height: 0.8rem;
+    z-index: 2;
+    left: 3.19rem;
+    top: 0.8rem;
+}
+.slider3-5>img:nth-child(3){
+	position: absolute;
+    display: block;
+    width: 2.6rem;
+    height: 2.4rem;
+    left: 3rem;
+    top: 0.2rem;
+}
+
+.slider3-6{
+	position: absolute;
+    left: -0.6rem;
+    top: 6rem;
+     -webkit-animation: w 4s linear infinite;
+}
+.slider3-6>img:nth-child(1){
+	position: absolute;
+    display: block;
+    width: 0.5rem;
+    height: 0.5rem;
+    left: 0.52rem;
+    top: 0.7rem;
+    z-index: 2;
+}
+.slider3-6>img:nth-child(2){
+	position: absolute;
+    display: block;
+    width: 1.9rem;
+    height: 0.8rem;
+    z-index: 2;
+    left: 0.33rem;
+    top: 0.8rem;
+}
+.slider3-6>img:nth-child(3){
+	position: absolute;
+    display: block;
+    width: 2.63rem;
+    height: 2.4rem;
+    left: -0.07rem;
+    top: 0.2rem;
+}
+
+
+.slider3-7{
+	position: absolute;
+    left: 2.6rem;
+    top: 5.9rem;
+     -webkit-animation:  UpDown 2s linear infinite;
+}
+.slider3-7>img:nth-child(1){
+	position: absolute;
+    display: block;
+    width: 0.4rem;
+    height: 0.5rem;
+    left: 1.4rem;
+    top: 0.7rem;
+    z-index: 2;
+}
+.slider3-7>img:nth-child(2){
+	position: absolute;
+    display: block;
+    width: 1.9rem;
+    height: 0.8rem;
+    z-index: 2;
+    left: 1.23rem;
+    top: 0.8rem;
+}
+.slider3-7>img:nth-child(3){
+	position: absolute;
+    display: block;
+    width: 2.63rem;
+    height: 2.4rem;
+    left: 0.93rem;
+    top: 0.2rem;
+}
+
+.slider3-8{
+	position: absolute;
+    left: 2rem;
+    top: 8.6rem;
+     -webkit-animation:  p 2s linear infinite;
+}
+.slider3-8>img:nth-child(1){
+	position: absolute;
+    display: block;
+    width: 0.5rem;
+    height: 0.7rem;
+    left: -0.6rem;
+    top: 0.9rem;
+    z-index: 2;
+}
+.slider3-9{
+	position: absolute;
+    left: 5.5rem;
+    top: 9.6rem;
+     -webkit-animation: j 2s linear infinite normal;
+     margin-right: 0.5rem;
+}
+.slider3-9>img:nth-child(1){	
+    display: block;
+    width: 0.5rem;
+    height: 0.5rem;   
+}
+
+.slider3-10{
+	position: absolute;
+    left: 4.7rem;
+    top: -0.4rem;
+   
+}
+
+.slider3 h4{
+	position: absolute;
+	left: 2.8rem;
+    top: 10.8rem;
+     -webkit-animation:  UpDown 2s linear infinite;
+}
+.slider3 h4 img{
+	display: block;
+	width: 0.4rem;
+    height: 0.4rem;
+}
+
+/*设置第四个页面*/
+.slider4{
+	width: 6.40rem;
+    height: 100%;
+    background: url(../img/4/bg.png);
+   
+    position: relative;
+    overflow: hidden;
+    background-size: 100% 100%;
+    }
+.slider4>.outer{
+	position: absolute;
+	top:0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+.slider4>.outer>p{
+	z-index: 3;
+	overflow: hidden;
+	border-radius: 50%;
+}
+.slider4>.outer>p:nth-of-type(1) {
+	position: absolute;
+    left: 0.48rem;
+    top: 5.85rem;
+    background: yellow;
+    background-size: 100% 100%;
+    
+    
+    }
+.slider4>.outer>p:nth-of-type(1)>img {
+	display: block;
+	width: 1.54rem;
+	height: 1.54rem;
+}
+
+.slider4>.outer>p:nth-of-type(2) {
+	position: absolute;
+    left: 1.6rem;
+    bottom: 2.66rem;
+    background: greenyellow;
+    background-size: 100% 100%;
+}
+
+.slider4>.outer>p:nth-of-type(2)>img {
+	display: block;
+	/*width: 1.39rem;
+	height: 1.39rem;*/
+	width: 1.54rem;
+	height: 1.54rem;
+}
+
+.slider4>.outer>p:nth-of-type(3) {
+	position: absolute;
+    left: 3.4rem;
+    bottom: 2.68rem;
+    background: cadetblue;
+    background-size: 100% 100%;
+}
+
+.slider4>.outer>p:nth-of-type(3)>img {
+	display: block;
+	width: 1.54rem;
+	height: 1.54rem;
+}
+
+.slider4>.outer>p:nth-of-type(4) {
+	position: absolute;
+    right: 0.2rem;
+    bottom: 3.95rem;
+    background: gold;
+    background-size: 100% 100%;
+}
+
+.slider4>.outer>p:nth-of-type(4)>img {
+	display: block;
+	width: 1.54rem;
+	height: 1.54rem;
+}
+
+.slider4>.outer>p:nth-of-type(5) {
+	position: absolute;
+    right: 0.18rem;
+    bottom: 5.7rem;
+    background: greenyellow;
+    background-size: 100% 100%;
+}
+
+.slider4>.outer>p:nth-of-type(5)>img {
+	display: block;
+	width: 1.54rem;
+	height: 1.54rem;
+}
+
+.slider4>.outer>p:nth-of-type(6) {
+	position: absolute;
+    top: 2.93rem;
+    right: 1.39rem;
+    background: violet;
+    background-size: 100% 100%;
+}
+
+.slider4>.outer>p:nth-of-type(6)>img {
+	display: block;
+	width: 1.54rem;
+	height: 1.54rem;
+}
+.slider4>.outer>p:nth-of-type(7) {
+	position: absolute;
+    left: 1.62rem;
+    top: 2.9rem;
+    background: skyblue;
+    background-size: 100% 100%;
+}
+
+.slider4>.outer>p:nth-of-type(7)>img {
+	display: block;
+	width: 1.54rem;
+	height: 1.54rem;
+}
+
+.slider4>.outer>p:nth-of-type(8) {
+	position: absolute;
+    left: 0.45rem;
+    top: 4.1rem;
+    background: darkgoldenrod;
+    background-size: 100% 100%;
+}
+
+.slider4>.outer>p:nth-of-type(8)>img {
+	display: block;
+	width: 1.69rem;
+	height: 1.69rem;
+}
+
+.slider4>.outer>div{
+	position: absolute;
+	z-index: 3;
+}
+.slider4>.outer>div>img{
+	display: block;
+	z-index: 3;
+}
+.slider4>.outer>div:nth-of-type(1){
+	left: 3.05rem;
+	bottom: 5.39rem;
+}
+.slider4>.outer>div:nth-of-type(1)>img{
+	width: 0.13rem;
+	height:0.13rem ;
+}
+.slider4>.outer>div:nth-of-type(2){
+	right:3.4rem ;
+	bottom: 4.62rem;
+}
+.slider4>.outer>div:nth-of-type(2)>img{
+	width: 0.3rem;
+	height: 0.3rem;
+}
+.slider4>.outer>div:nth-of-type(3){
+	right: 2.06rem;
+	bottom: 2.52rem;
+}
+.slider4>.outer>div:nth-of-type(3)>img{
+	width: 0.78rem;
+	height:0.78rem ;
+}
+.slider4>.outer>div:nth-of-type(4){
+	right: 1.77rem;
+	bottom:5.62rem ;
+}
+.slider4>.outer>div:nth-of-type(4)>img{
+	width:0.49rem ;
+	height:0.49erm ;
+}
+.slider4>.outer>div:nth-of-type(5){
+	right: 2.65rem;
+	bottom:6.29rem ;
+}
+.slider4>.outer>div:nth-of-type(5)>img{
+	width: 8px;
+	height: 8px;
+}
+.slider4>.outer>div:nth-of-type(6){
+	top: 6.03rem;
+	right:2.02rem ;
+}
+.slider4>.outer>div:nth-of-type(6)>img{
+	width: 0.2rem;
+	height:0.2rem ;
+}
+.slider4>.outer>div:nth-of-type(7){
+	top: 4.4rem;
+	right:2.86rem ;
+}
+.slider4>.outer>div:nth-of-type(7)>img{
+	width:0.7rem ;
+	height:0.7rem ;
+}
+.slider4>.outer>div:nth-of-type(8){
+    left: 3.01rem;
+    top: 4.88rem;
+}
+.slider4>.outer>div:nth-of-type(8)>img{
+	width: 13px;
+	height: 13px;
+}
+.slider4>.outer>div:nth-of-type(9){
+	left: 1.97rem;
+	top: 5.72rem;
+}
+.slider4>.outer>div:nth-of-type(9)>img{
+	width:0.36rem ;
+	height:0.36rem ;
+}
+.slider4>.outer>div:nth-of-type(10){
+	left: 0.44rem;
+	top: 5.73rem;
+}
+.slider4>.outer>div:nth-of-type(10)>img{
+	width:13px ;
+	height: 13px;
+}
+.slider4>.outer>div:nth-of-type(11){
+	right: 0.67rem;
+	bottom:1.8rem ;
+}
+.slider4>.outer>div:nth-of-type(11)>img{
+	width: 0.28rem;
+	height: 0.28rem;
+}
+.slider4>.outer>div:nth-of-type(12){
+	right:0 ;
+	top:3.76rem ;
+}
+.slider4>.outer>div:nth-of-type(12)>img{
+	width: 0.26rem;
+	height: 0.74rem;
+}
+.slider4>.outer>div:nth-of-type(13){
+	right: 0.36rem;
+	top:1.36rem ;
+}
+.slider4>.outer>div:nth-of-type(13)>img{
+	width:1.22rem ;
+	height:1.22rem ;
+}
+.slider4>.outer>div:nth-of-type(14){
+	top:1.88rem ;
+	right:2.66rem ;
+}
+.slider4>.outer>div:nth-of-type(14)>img{
+	width:0.42rem ;
+	height:0.42rem ;
+}
+.slider4>.outer>div:nth-of-type(15){
+	left: 0.26rem;
+	top:0.94rem ;
+}
+.slider4>.outer>div:nth-of-type(15)>img{
+	width:0.74rem ;
+	height: 0.74rem;
+}
+.slider4>.outer>div:nth-of-type(16){
+	left:-1.4rem ;
+	bottom:3.68rem ;
+}
+.slider4>.outer>div:nth-of-type(16)>img{
+	width:2.4rem ;
+	height:2.4rem ;
+}
+.slider4>.outer>div:nth-of-type(17){
+	left:0.2rem;
+	bottom:-0.4rem ;
+}
+.slider4>.outer>div:nth-of-type(17)>img{
+	width:2.3rem ;
+	height:2.3rem ;
+}
+.slider4>.outer>div:nth-of-type(18){
+	left: 0rem;
+	top:1.55rem;
+	z-index: 1;
+}
+.slider4>.outer>div:nth-of-type(18)>img{
+	width: 7.5rem;
+	height: 10.19rem;
+}
+.slider4>.outer>div:nth-of-type(19){
+	left: 0;
+	top:0;
+	z-index: 2;
+}
+.slider4>.outer>div:nth-of-type(19)>img{
+	width: 100%;
+	height: 100%;
+}
+.slider4>.outer>div:nth-of-type(20){
+	position: absolute;
+	bottom: 6.51rem;
+	right: 3.62rem;
+}
+.slider4>.outer>div:nth-of-type(20)>img{
+	display: block;
+	width: 0.25rem;
+	height: 0.25rem;
+}
+.slider4>.outer>div:nth-of-type(21){
+	position: absolute;
+	bottom:1.55rem ;
+	right: 1.05rem;
+}
+.slider4>.outer>div:nth-of-type(21)>img{
+	display: block;
+	width:2.53rem ;
+	height:0.53rem ;
+}
+.slider4>.outer>div:nth-of-type(22){
+	position: absolute;
+	left:3.35rem ;
+	bottom: 1.55rem;
+}
+.slider4>.outer>div:nth-of-type(22)>img{
+	display: block;
+	width: 0.43rem;
+	height: 0.68rem;
+}
+.slider4>.dif1{
+	position: absolute;
+    left: 2.89rem;
+    top: 4.78rem;
+    z-index: 3;
+}
+.slider4>.dif1>img{
+	display: block;
+    width: 1.59rem;
+    height: 0.63rem;
+}
+.slider4>.dif2{
+	position: absolute;
+    right: 2.21rem;
+    top: 5.56rem;
+    z-index: 3;
+}
+.slider4>.dif2>img{
+	display: block;
+    width: 3.05rem;
+    height: 0.63rem;
+}
+.slider4>.dis{
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: none;
+}
+.slider4>.dis>.c{
+	position: absolute;
+	right: 0.35rem;
+	top:2.15rem;
+	z-index: 5;
+}
+.slider4>.dis>.c>img{
+	display: block;
+	width: 0.88rem;
+	height:1.18rem
+}
+.swiper2 img{
+	position: absolute;
+}
+.slider4>.dis>.swiper2>.anm>.ani>.one{
+	position: absolute;
+    width: 5.57rem;
+    left: 1.01rem;
+    top: 4.9rem;
+    height: 5.6rem;
+}
+.slider4>.dis>.swiper2>.anm>.ani>.two{
+	left: 1.3rem;
+    top: 4.8rem;
+    width: 4.77rem;
+    height: 6.36rem;
+}
+.slider4>.dis>.swiper2>.anm>.ani>.thr{
+    left: 1.8rem;
+    top: 4.8rem;
+    width: 4rem;
+    height: 6rem;
+}
+.slider4>.dis>.swiper2>.anm>.ani>.fou{
+    left: 1.2rem;
+    top: 4.7rem;
+    height: 6rem;
+    width: 5rem;
+}
+.slider4>.dis>.swiper2>.anm>.ani>.fiv{
+    left: 1.8rem;
+    top: 4.8rem;
+    width: 3.8rem;
+    height: 6.3rem;
+}
+.slider4>.dis>.swiper2>.anm>.ani>.six{
+	left: 0.5rem;
+    top: 4.9rem;
+    width: 6.5rem;
+    height: 6rem;
+}
+.slider4>.dis>.swiper2>.anm>.ani>.sev{
+    left: 1.7rem;
+    top: 5rem;
+    width: 4rem;
+    height: 6rem;
+}
+.slider4>.dis>.swiper2>.anm>.ani>.eig{
+    left: 1.2rem;
+    top: 5rem;
+    width: 5rem;
+    height: 6rem;
+}
+
+
+
+
+
+/*设置第五个页面*/
+.page5{
+	background: url(../img/5/bg-5-2.png) center top no-repeat;
+	background-size: cover;
+}
+
+.line{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.line img{
+	width: 100%;
+	height: 100%;
+}
+.temen{
+	width: 2.53rem;
+    height: 1.47rem;
+	position: absolute;
+	left: 0.6rem;
+    top: 0.8rem;
+}
+.temen img{
+	width: 2.53rem;
+    height: 1.47rem;
+}
+.nice{
+	width: 1.17rem;
+	height: 1.45rem;
+	position: absolute;
+	left: 3.5rem;
+	top: 2.5rem;
+}
+.Img img{
+	width: 1.17rem;
+	height: 1.45rem;
+}
+.yixiaoxing{
+	width: 1.17rem;
+	height: 1.45rem;
+	position: absolute;
+	left: 0.5rem;
+	top: 3rem;
+	/*left: 0.4rem;
+    top: 2.7rem;*/
+}
+.ximalaya{
+	width: 1.17rem;
+	height: 1.45rem;
+	position: absolute;
+	left: 5.27rem;
+	top: 2.92rem;
+}
+.bilibili{
+	width: 1.17rem;
+	height: 1.45rem;
+	position: absolute;
+	left: 1.95rem;
+	top: 4.72rem;
+}
+.huangtaiji{
+	width: 1.17rem;
+	height: 1.45rem;
+	position: absolute;
+	left: 3.72rem;
+	top: 5.18rem;
+}
+.yanzhi{
+	width: 1.17rem;
+	height: 1.45rem;
+	position: absolute;
+	left: 0.4rem;
+	top: 6.96rem;
+}
+.zhi{
+	width: 1.17rem;
+	height: 1.45rem;
+	position: absolute;
+	left: 3.05rem;
+	top: 7.66rem;
+}
+.feidieshuo{
+	width: 1.17rem;
+	height: 1.45rem;
+	position: absolute;
+	left: 5.15rem;
+	top: 6.89rem;
+}
+.xishiqu{
+	width: 1.17rem;
+	height: 1.45rem;
+	position: absolute;
+	left: 1.52rem;
+	top: 9.89rem;
+}
+.pogo{
+	width: 1.17rem;
+	height: 1.45rem;
+	position: absolute;
+	left: 4.46rem;
+	top: 9.37rem;
+}
+.shadow{
+	width: 1.44rem;
+	height: 1.66rem;
+	position: absolute;
+    transform-origin: right bottom;
+    transform: rotateZ(16deg);
+}
+.shadow img{
+	width: 1.34rem;
+    height: 1.66rem;
+}
+.p1{
+	left: 0.01rem;
+    top: 2.85rem;
+}
+.p2{
+	top: 2.3rem;
+    left: 3rem;
+}
+.p3{
+	top: 2.7rem;
+    left: 4.7rem;
+}
+.p4{
+	top: 4.55rem;
+    left: 1.45rem;
+}
+.p5{
+	top: 4.95rem;
+    left: 3.25rem;
+}
+.p6{
+	top: 6.83rem;
+    left: -0.09rem;
+}
+.p7{
+	top: 7.53rem;
+    left: 2.55rem;
+}
+.p8{
+	top: 6.73rem;
+    left: 4.65rem;
+}
+.p9{
+	top: 9.73rem;
+    left: 1.03rem;
+}
+.p10{
+	top: 9.23rem;
+    left: 3.93rem;
+}
+.a{
+	-moz-animation: move9 0.3s 2.7s ease-in-out;
+	-webkit-animation: move9 0.3s 2.7s ease-in-out;
+	animation-fill-mode:forwards;
+}
+.hand{
+	width: 2.51rem;
+    height: 1.33rem;
+    position: absolute;
+    top: 8.1rem;
+    left: 0.1rem;
+    z-index: 1;
+    -moz-animation: hand 2s ease-in-out infinite normal;
+    -webkit-animation: hand 2s ease-in-out infinite normal;
+}
+.hand>img{
+	width: 2.51rem;
+    height: 1.33rem;
+}
+
+#music{
+	position: absolute;
+    left: 5.5rem;
+    top: 9.6rem;
+     -webkit-animation: j 2s linear infinite normal;
+     margin-right: 0.5rem;
+}
+
+#music>img:nth-child(1){	
+    display: block;
+    width: 0.5rem;
+    height: 0.5rem;   
+}
+
+.UpDown{
+	position: absolute;
+	left: 2.8rem;
+    top: 10.3rem;
+     -webkit-animation:  hcj 2s linear infinite;
+}
+.UpDown>img{
+	/*display: block;*/
+	width: 0.4rem;
+    /*height: 0.4rem;*/
+}
+
+/*蒙层部分*/
+
+.bilibili2,.feidieshuo2,.huangtaiji2,.nice2,.pogo2,.ximalaya2,.xishiqu2,.yanzhi2,.yixiaoxing2,.zhi2{
+	width: 100%;
+	height: 7.8rem;
+	position: absolute;
+	top: 2.54rem;
+	overflow: hidden;
+	text-align: center;
+	display: none;
+}
+.bilibili2>img,.feidieshuo2>img,.huangtaiji2>img,.nice2>img,.pogo2>img,.ximalaya2>img,.xishiqu2>img,.yanzhi2>img,.yixiaoxing2>img,.zhi2>img{
+	width: 5.47rem;
+    height: 7.8rem;
+}
+/*.feidieshuo2{
+	width: 100%;
+	position: absolute;
+	text-align: center;
+	top: 2.2rem;
+	z-index: 2;
+}
+.feidieshuo2 img{
+	width: 5.47rem;
+    height: 7.8rem;
+}*/
+h4{
+	width: 1.21rem;
+	height: 0.95rem;
+	position: absolute;
+	top: 2.3rem;
+    right: 0.26rem;
+	display: none;
+}
+h4 img{
+	width: 1.01rem;
+    height: 0.75rem;
+}
+
+
+
+/*设置第六个页面*/
+.slider6{
+	width: 6.40rem;
+    height: 100%;
+    background: black;
+    position: relative;
+    background-size: 100% 100%;
+}
+.slider6 h4{
+	position: absolute;
+	left: 2.8rem;
+    top: 10.3rem;
+     -webkit-animation:  UpDown 2s linear infinite;
+}
+.slider6 h4 img{
+	display: block;
+	width: 0.4rem;
+    height: 0.4rem;
+}
+.slider6-1{
+	    position: absolute;
+        left: 0.2rem;
+	
+}
+.slider6-1>img:nth-child(1){
+	position: absolute;
+    display: block;
+    width: 2.1rem;
+    height: 2.4rem;
+    left: 0.3rem;
+    top: 0.3rem;
+    z-index: 2;
+}
+.slider6-1>img:nth-child(2){
+	position: absolute;
+    display: block;
+    width: 2.4rem;
+    height: 1.8rem;
+    left: 1.72rem;
+    top: 0.6rem;
+    z-index: 3;
+}
+.slider6-1>img:nth-child(3){
+	position: absolute;
+    display: block;
+    width: 2.3rem;
+    height: 1.98rem;
+    left: 3.8rem;
+    top: 0.4rem;
+    z-index: 2;
+}
+
+.slider6-2{
+	position: absolute;
+    left: -0.3rem;
+    top: 1.5rem;
+}
+.slider6-2>img:nth-child(1){
+	    display: block;
+	    width: 0.5rem;
+	    height: 0.5rem;
+}
+.slider6-3{
+	position: absolute;
+    left: 6.2rem;
+    top: 0.5rem;
+	
+}
+.slider6-3>img:nth-child(1){
+	 display: block;
+	    width: 0.5rem;
+	    height: 0.5rem;
+}
+.slider6-4{
+	position: absolute;
+    left: 5.8rem;
+    top: 8rem;
+	
+}
+.slider6-4>img:nth-child(1){
+		display: block;
+	    width: 0.5rem;
+	    height: 0.5rem;
+}
+.slider6-5{
+	position: absolute;
+    left: 0.5rem;
+    top: 4rem;
+	
+}
+.slider6-5>img:nth-child(1){
+		display: block;
+	    width: 0.5rem;
+	    height: 0.5rem;
+}
+.slider6-6{
+	position: absolute;
+    top: 0.2rem;
+}
+.slider6-6>img:nth-child(1){
+	position: absolute;
+    width: 4.5rem;
+    height: 0.4rem;
+    display: block;
+    z-index: 3;
+    left: 1.0rem;
+    top: 0.8rem;
+}
+.slider6-7{
+	position: absolute;
+    left: 5.5rem;
+    top: 9.6rem;
+     -webkit-animation: j 2s linear infinite normal;
+     margin-right: 0.5rem;
+}
+
+.slider6-7>img:nth-child(1){	
+    display: block;
+    width: 0.5rem;
+    height: 0.5rem;   
+}
+.slider6-8 {
+	margin-top: 3rem;
+}
+.slider6-8 p{
+	text-align: center;
+	color: #FFFFFF;
+	font-size: 19px;
+	padding-top: 0.1rem;
+}
+.slider6-9{
+	position: absolute;
+}
+.slider6-9>img:nth-child(1){
+	position: absolute;
+    left: 2rem;
+    top: 0.8rem;
+    display: block;
+    width: 1.2rem;
+    height: 1.4rem;
+}
+.slider6-9>img:nth-child(2){
+	position: absolute;
+    display: block;
+    width: 1.3rem;
+    left: 3.5rem;
+    height: 1.4rem;
+    top: 0.3rem;
+}
+.slider6-9>img:nth-child(3){
+	position: absolute;
+    display: block;
+    width: 1.3rem;
+    height: 1.3rem;
+    top: 2.5rem;
+    left: 1.9rem;
+}
+.slider6-9>img:nth-child(4){
+	position: absolute;
+    display: block;
+    width: 1.3rem;
+    height: 1.5rem;
+    top: 1.8rem;
+    left: 3.5rem;
+}
+.slider6-9>img:nth-child(5){
+	position: absolute;
+    display: block;
+    width: 1.3rem;
+    height: 1.5rem;
+    top: 4rem;
+    left: 2rem;
+}
+.slider6-9>img:nth-child(6){
+	position: absolute;
+    display: block;
+    width: 1rem;
+    height: 1.5rem;
+    top: 3.5rem;
+    left: 3.5rem;
+}
+.slider6-10{
+	position: absolute;
+    left: 4.7rem;
+    top: -0.4rem;
+   
+}
+
+.slider6-9>img:nth-child(1){	
+   display: block;
+    width: 1.3rem;
+    height: 1.3rem;
+}
+/*设置第七个页面*/
+.slider7{
+	height: 100%;
+    width: 6.40rem;
+    background: url(../img/7/bg.png);
+    position: relative;
+}
+
+.slider7-1{
+	position: absolute;
+    left: -0.3rem;
+    top: 1.5rem;
+}
+.slider7-1>img:nth-child(1){
+	    display: block;
+	    width: 0.5rem;
+	    height: 0.5rem;
+}
+.slider7-2{
+	position: absolute;
+    left: 6.2rem;
+    top: 0.5rem;
+	
+}
+.slider7-2>img:nth-child(1){
+	 display: block;
+	    width: 0.5rem;
+	    height: 0.5rem;
+}
+.slider7-3{
+	position: absolute;
+    left: -1.2rem;
+    top: 9.5rem;
+	
+}
+.slider7-3>img:nth-child(1){
+		display: block;
+    width: 2rem;
+    height: 1.2rem;
+}
+.slider7-4{
+	position: absolute;
+    left: 0.5rem;
+    top: 4rem;
+	
+}
+.slider7-4>img:nth-child(1){
+		display: block;
+	    width: 0.5rem;
+	    height: 0.5rem;
+}
+.slider7-5{
+	position: absolute;
+    top: 0.2rem;
+}
+.slider7-5>img:nth-child(1){
+	position: absolute;
+    width: 0.5rem;
+    height: 0.4rem;
+    display: block;
+    z-index: 3;
+    left: 6.2rem;
+    top: 6.8rem;
+}
+.slider7-6{
+	position: absolute;
+    top: 0.8rem;
+}
+.slider7-6>img:nth-child(1){
+	position: absolute;
+    width: 2.5rem;
+    height: 1.4rem;
+    display: block;
+    z-index: 3;
+    left: -2rem;
+    top: 3.8rem;
+}
+.slider7-7{
+	position: absolute;
+    left: 1.97rem;
+    top: 0.3rem;
+}
+.slider7-7>p{
+	
+	color: #FFFFFF;
+    font-size: 22px;
+}
+.slider7-8{
+	position: absolute;
+    left: 1rem;
+    top: 1rem;
+}
+.slider7-8>p{
+	
+	text-align: center;
+    font-size: 13px;
+    color: #FFFFFF;
+}
+.slider7-9{
+	position: absolute;
+    left: 2.1rem;
+    top: 2.8rem;
+}
+.slider7-9>p{
+	
+	font-size: 13px;
+	color: #FFFFFF;
+}
+.slider7-10{
+	position: absolute;
+    top: 6rem;
+    left: 1rem;
+}
+.slider7-10>p{
+	
+	font-size: 13px;
+	color: #FFFFFF;
+}
+.slider7-11{
+	position: absolute;
+    top: 8.5rem;
+    left: 2rem;
+}
+.slider7-11>p{
+	
+	font-size: 13px;
+	color: #FFFFFF;
+}
+
+.slider7-12{
+	position: relative;
+    top: 0.6rem;
+    left: 1.5rem;
+    /*overflow: hidden;*/
+    height: 0rem;
+    width: 4rem;
+}
+.slider7-12>img{
+	display: block;
+	width: 4rem;
+	height: 8rem;
+}
+
+.slider7-13{
+	position: absolute;
+    left: 5.5rem;
+    top: 9.6rem;
+     -webkit-animation: j 2s linear infinite normal;
+     margin-right: 0.5rem;
+}
+.slider7-13>img:nth-child(1){	
+    display: block;
+    width: 0.5rem;
+    height: 0.5rem;   
+}
+
+.slider7-14{
+	position: absolute;
+    top: 3.1rem;
+    left: 1.4rem;
+}
+.slider7-14>img{
+	width: 9.5rem;
+    height: 6.1rem;
+    z-index: 2;
+}
+
+
+.slider7 h4{
+	position: absolute;
+	left: 2.8rem;
+    top: 10.8rem;
+     -webkit-animation:  UpDown 2s linear infinite;
+}
+.slider7 h4 img{
+	display: block;
+	width: 0.4rem;
+    height: 0.4rem;
+}
+
+
+
+
+
+
+
+
+/*设置第八个页面*/
+.slider8{
+	height: 100%;
+    width: 6.40rem;
+    background: url(../img/8/bg.png);
+    position: relative;
+    background-size: 100% 100%;
+}
+
+.slider8 h4{
+	position: absolute;
+	left: 2.8rem;
+    top: 10.3rem;
+     -webkit-animation:  UpDown 2s linear infinite;
+}
+.slider8 h4 img{
+	display: block;
+	width: 0.4rem;
+    height: 0.4rem;
+}
+
+.slider8-1{
+	    position: absolute;
+        left: 0.2rem;
+	
+}
+.slider8-1>img:nth-child(1){
+	position: absolute;
+    display: block;
+    width: 2.1rem;
+    height: 2.4rem;
+    left: 0.3rem;
+    top: 0.3rem;
+    z-index: 2;
+}
+.slider8-1>img:nth-child(2){
+	position: absolute;
+    display: block;
+    width: 2.4rem;
+    height: 1.8rem;
+    left: 1.72rem;
+    top: 0.6rem;
+    z-index: 3;
+}
+.slider8-1>img:nth-child(3){
+	position: absolute;
+    display: block;
+    width: 2.3rem;
+    height: 1.98rem;
+    left: 3.8rem;
+    top: 0.4rem;
+    z-index: 2;
+}
+
+.slider8-2{
+	position: absolute;
+    left: -0.3rem;
+    top: 1.5rem;
+}
+.slider8-2>img:nth-child(1){
+	    display: block;
+	    width: 0.5rem;
+	    height: 0.5rem;
+}
+.slider8-3{
+	position: absolute;
+    left: 6.2rem;
+    top: 0.5rem;
+	
+}
+.slider8-3>img:nth-child(1){
+	 display: block;
+	    width: 0.5rem;
+	    height: 0.5rem;
+}
+.slider8-4{
+	position: absolute;
+    left: 5.8rem;
+    top: 6rem;
+	
+}
+.slider8-4>img:nth-child(1){
+		display: block;
+	    width: 0.5rem;
+	    height: 0.5rem;
+}
+.slider8-5{
+	position: absolute;
+    left: 0.5rem;
+    top: 4rem;
+	
+}
+.slider8-5>img:nth-child(1){
+		display: block;
+	    width: 0.5rem;
+	    height: 0.5rem;
+}
+.slider8-6{
+	position: absolute;
+    top: 0.2rem;
+    z-index: 3;
+}
+.slider8-6>img:nth-child(1){
+	position: absolute;
+    width: 4.5rem;
+    height: 0.4rem;
+    display: block;
+    z-index: 3;
+    left: 1.0rem;
+    top: 0.8rem;
+}
+.slider8-7{
+	position: absolute;
+    left: 5.5rem;
+    top: 9.6rem;
+     -webkit-animation: j 2s linear infinite normal;
+     margin-right: 0.5rem;
+}
+
+.slider8-7>img:nth-child(1){	
+    display: block;
+    width: 0.5rem;
+    height: 0.5rem;   
+}
+.slider8-8{
+	margin-top: 1rem;
+}
+.slider8-8>p{
+	color: #FFFFFF;
+    font-size: 22px;
+    margin-top: 3rem;
+    text-align: center;
+	
+}
+.slider8-8 h3{
+	text-align: center;
+    position: absolute;
+    top: 3.1rem;
+    left: 2rem;
+}
+.slider8-8>h3>img{
+	width: 2.5rem;
+    height: 0.4rem;
+    position: absolute;
+    top: -2.3rem;
+}
+.slider8-9{
+	margin-top: 4rem;
+}
+.slider8-9 p{
+	text-align: center;
+    color: #FFFFFF;
+    font-size: 22px;
+    margin-top: -3rem;
+	
+}
+.slider8-9 h3{
+	text-align: center;
+    position: absolute;
+    top: 6.1rem;
+    left: 2rem;
+}
+.slider8-9>h3>img{
+	 position: absolute;
+    width: 2.5rem;
+    height: 0.5rem;
+    left: -0.3rem;
+    top: -5.2rem;
+}
+.slider8-10{
+	position: absolute;
+    width: 1.5rem;
+    height: 2rem;
+    left: 0.5rem;
+    top: 7rem;
+	
+}
+.slider8-10>img{
+	width: 0.8rem;
+    height: 0.5rem;
+} 
+.slider8-10>p{
+	color: #FFFFFF;
+	font-size: 2px;
+	text-align: center;
+}
+.slider8-11{
+	position: absolute;
+    width: 2.1rem;
+    height: 2rem;
+    left: 2.4rem;
+    top: 7rem;
+	
+}
+.slider8-11>img{
+	width: 0.8rem;
+    height: 0.5rem;
+} 
+.slider8-11>p{
+	color: #FFFFFF;
+	font-size: 2px;
+	text-align: center;
+}
+.slider8-12{
+	position: absolute;
+    width: 1.5rem;
+    height: 2rem;
+    left: 4.7rem;
+    top: 7rem;
+}
+.slider8-12>img{
+	width: 0.8rem;
+    height: 0.5rem;
+} 
+.slider8-12>p{
+	color: #FFFFFF;
+	font-size: 2px;
+	text-align: center;
+}
+
+/*设置第九个页面*/
+.slider9{
+	height: 100%;
+    width: 6.40rem;
+    background: url(../img/9/bg.png);
+     background-size: 100% 100%;
+}
+.slider9-1{
+	position: absolute;
+    left: 0.8rem;
+    top: 0.5rem;
+}
+.slider9-1>img{
+	display: block;
+    width: 5.5rem;
+    height: 2.5rem;
+}
+.slider9-2{
+	margin-top: 3rem;
+}
+.slider9-2 p{
+	color: #FFFFFF;
+	font-size: 17px;
+	text-align: center;
+}
+.slider9-3{
+	position: absolute;
+    left: 2.1rem;
+    top: 4.5rem;
+}
+.slider9-3>img{
+	width: 2.5rem;
+    height: 2rem;
+}
+.slider9-4{
+	margin-top: 3rem;
+}
+.slider9-4 p{
+	color: #FFFFFF;
+    font-size: 26px;
+    text-align: center;
+}
+.slider9-5{
+	position: absolute;
+    left: 2rem;
+    top: 7.2rem;
+}
+.slider9-5>img{
+	width: 2.8rem;
+    height: 0.6rem;
+}
+.slider9-6{
+	position: absolute;
+    left: 1.4rem;
+    top: 9.5rem;
+	
+}
+.slider9-6>a{
+	color: #FFFFFF;
+    font-size: 15px;
+}
+.slider9-7{
+	position: absolute;
+    left: 5.5rem;
+    top: 9.6rem;
+     -webkit-animation: j 2s linear infinite normal;
+     margin-right: 0.5rem;
+}
+
+.slider9-7>img{	
+    display: block;
+    width: 0.5rem;
+    height: 0.5rem;   
+}
+.slider9-8{
+	position: absolute;
+    left: 2.8rem;
+    top: 5rem;
+}
+.slider9-8 p{
+	color: #FFFFFF;
+    font-size: 18px;
+   
+}
+ /*上箭头*/
+.slider9-9{
+	    position: absolute;
+    left: 5rem;
+    top: 0.2rem;
+    width: 1.2rem;
+    height: 0.8rem;
+    animation: wangpeijie 1s ease-in-out infinite;
+    
+}
+.top-arrow2{
+   width: 0;
+    height: 0;
+    display: block;
+    z-index: 5;
+    border-top: 10px transparent dashed;
+    border-left: 10px transparent dashed;
+    border-right: 10px transparent dashed;
+    border-bottom: 10px white solid;
+    overflow: hidden;
+    margin-left: 0.32rem;
+}      
+.slider9-9 p{
+	color: #FFFFFF;
+    font-size: 12px;
+}
+
+
+
+#ft{
+	color: #FFFFFF;
+	/*position: absolute;*/
+	left: 1.55rem;
+	top: 4.78rem;
+	width: 4.52rem;
+	height: 1.96rem;
+	opacity: 0;
+}
+
+#ft>.tab {
+	margin-bottom: 16px;
+    margin-left: 0.3rem;
+    margin-top: -3rem;
+}
+
+#ft>.tab >label {
+	font-size: 0.24rem;
+	color: #fff;
+}
+
+#ft>.tab >input {
+	width: 2.5rem;
+    height: 0.32rem;
+    border: 1px solid #fff;
+    background: none;
+    border-radius: 5px;
+    margin-left: 0.34rem;
+}
